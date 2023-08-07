@@ -1,0 +1,131 @@
+{
+    "root": {
+        "data": {
+            "id": "ctnwvw1cx5k0",
+            "created": 1687917694417,
+            "text": "Dockerfile常见指令"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "ctnwwd6dj800",
+                    "created": 1687917731726,
+                    "text": "FROM: 指定基础镜像",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ctnwwmqfslc0",
+                    "created": 1687917752530,
+                    "text": "MAINTAINER: 指定维护者信息",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ctnwwxy7gps0",
+                    "created": 1687917776944,
+                    "text": "RUN: 构建镜像时执行命令",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ctnwx7hxda80",
+                    "created": 1687917797728,
+                    "text": "CMD: 容器启动后执行命令",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ctnwxiib5m80",
+                    "created": 1687917821696,
+                    "text": "WORKDIR: 设置工作目录",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ctnwxpv360g0",
+                    "created": 1687917837706,
+                    "text": "ADD: 添加宿主机文件到容器，会自动解压",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ctnwy1bl2p40",
+                    "created": 1687917862648,
+                    "text": "COPY: 功能类似于ADD,但不自动解压",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ctnwybfaxfs0",
+                    "created": 1687917884640,
+                    "text": "ENTRYPOINT: 配置容器",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ctnwyhb3mu80",
+                    "created": 1687917897447,
+                    "text": "ENV: 设置环境变量",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ctnwymsrj5c0",
+                    "created": 1687917909399,
+                    "text": "EXPOSE: 指定外界交互的端口",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ctnwz2ex87c0",
+                    "created": 1687917943391,
+                    "text": "VOLUMNE: 指定持久化目录",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ctnwzsnuhcw0",
+                    "created": 1687918000527,
+                    "text": "USER: 指定用户",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ctnx00i29m80",
+                    "created": 1687918017591,
+                    "text": "ONBUILD: 帮助其他容器生成",
+                    "layout": null
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-purple",
+    "version": "1.4.43"
+}

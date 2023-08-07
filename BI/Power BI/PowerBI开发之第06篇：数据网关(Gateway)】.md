@@ -1,6 +1,6 @@
 # [PowerBI开发 第六章：数据网关（Gateway） ](https://www.cnblogs.com/ljhdo/p/5125235.html)
 
-Power BI的本地数据网管（On-Premises Data Gateway）是运行在组织内部的软件，用于管控外部用户访问内部(on-premises)数据的权限。PowerBI的网管像是一个尽职的门卫，监听来自外部网络（云端服务，Cloud Service）的连接请求，验证其身份信息。对于合法的请求，网管执行查询请求；否则，拒绝执行。云端（PowerBI Service）程序向网管发送查询内网数据的请求，网管访问企业内网（On-Presmises）的数据库执行查询（Query）请求，网管把查询结果加密和压缩之后传送到云端，保证数据的传输安全。总而言之，网管的作用就像一座桥，桥的两端是内网的数据和云端的PowerBI Service，网管使得企业私有的内部数据，能够安全地应用于云端的PowerBI Service。使用网管能够设置调度程序，定时把内网数据刷新到PoserBI Service的Datasets中，从而实现报表数据的自动更新。
+Power BI的本地数据网管（On-Premises Data Gateway）是运行在组织内部的软件，用于管控外部用户访问内部(on-premises)数据的权限。PowerBI的网管像是一个尽职的门卫，监听来自外部网络（云端服务，Cloud Service）的连接请求，验证其身份信息。对于合法的请求，网管执行查询请求；否则，拒绝执行。云端（PowerBI Service）程序向网管发送查询内网数据的请求，网管访问企业内网（On-Presmises）的数据库执行查询（Query）请求，网管把查询结果加密和压缩之后传送到云端，保证数据的传输安全。总而言之，网管的作用就像一座桥，桥的两端是内网的数据和云端的PowerBI Service，网管使得企业私有的内部数据，能够安全地应用于云端的PowerBI Service。使用网管能够设置调度程序，定时把内网数据刷新到PowerBI Service的Datasets中，从而实现报表数据的自动更新。
 
 单词 Premises可以翻译为组织的生产/营业场所，“On-Premises”是指：在组织的建筑内的，在本地的，与之对应的反义词是云端，On-Premises Data是指在组织所在的经营场所中存储的数据，可以翻译为本地数据，内网数据。
 
